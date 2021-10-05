@@ -39,6 +39,7 @@ main {
     color: white;
     width: 15%;
     color: #a3a3a3;
+    position: relative;
 }
 
 .main-menu .list-logo,
@@ -150,6 +151,7 @@ main {
     position: relative;
 }
 
+/* SECTION DISPLAY HEADER */
 .display-header {
     height: 10%;
     background-color: rgba(0,0,0, .80);
@@ -173,13 +175,45 @@ main {
 
 .btn:hover {
     transform: scale(1.2);
-    background-color: white;
-    color: black;
 }
 
 .display-main {
     flex-grow: 1;
-    background-color: lightsteelblue;
+    background-color: rgba(0,0,0, .7);
+}
+
+/* SECTION DISPLAY NAVIGATION */
+
+.navigation .menu-display{
+    text-align: center;
+    line-height: 50px;
+}
+
+.navigation .menu-display li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 10%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: #74767b;
+    cursor: pointer;
+    position: relative;
+}
+
+.navigation .menu-display li:first-child::before {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color:  greenyellow;
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+
+.navigation .menu-display li:hover {
+    color: white;
 }
 
 
