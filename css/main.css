@@ -1,7 +1,47 @@
 /* GENERAL STYLE */
-*{
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* MAIN CONTENT */
+main {
+    flex-grow: 1;
+    display: flex;
+}
+
+/* SECTION NAV */
+.nav {
+    background-color: lightpink;
+}
+
+/* SECTION DISPLAY */
+.display {
+    flex-grow: 1;
+}
+
+.display-header {
+    height: 70px;
+    background-color: lightslategrey;
+}
+
+.display-main {
+    flex-grow: 1;
+    background-color: lightsteelblue;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: lightgreen;
+    height: 70px;
 }
