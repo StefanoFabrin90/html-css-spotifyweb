@@ -197,9 +197,15 @@ main {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
-    color: #74767b;
+    color: lightgray;
     cursor: pointer;
     position: relative;
+    transition: transform .1s;
+}
+
+.navigation .menu-display li:hover {
+    color: white;
+    transform: scale(1.1);
 }
 
 .navigation .menu-display li:first-child::before {
@@ -212,9 +218,7 @@ main {
     left: 50px;
 }
 
-.navigation .menu-display li:hover {
-    color: white;
-}
+
 
 
 
