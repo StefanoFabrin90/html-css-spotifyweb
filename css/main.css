@@ -37,14 +37,15 @@ main {
     color: #a3a3a3;
 }
 
-.main-menu .list-logo {
+.main-menu .list-logo,
+.name .list-profilo {
     list-style: none;
     cursor: pointer;
 }
 .main-menu .list-logo li span,
 .main-menu .list-2 li span{ 
     font-size: 14px;
-    
+
 }
 .action {
     display: inline-block;
@@ -54,11 +55,13 @@ main {
 
 .main-menu h4 {
     color: white;
+    cursor: pointer;
 }
 
 .list-2 li {
     padding: 10px 20px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .list-2 .action i {
@@ -69,7 +72,41 @@ main {
     position: fixed;
     bottom: 70px;
     left: 0;
+    width: 15%;
 }
+
+.name li {
+    font-size: 12px;
+}
+
+.list-profilo li:first-child .action:first-child {
+    width: 5%;
+}
+
+.name .square {
+    width: 30px;
+    height: 30px;
+    background-color:#a3a3a3;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.name .square img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.name .profilo {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+
 
 
 
