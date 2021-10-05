@@ -22,6 +22,10 @@ body {
     padding: 20px;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
 /* MAIN CONTENT */
 main {
     flex-grow: 1;
@@ -80,7 +84,7 @@ main {
 }
 
 .list-profilo li:first-child .action:first-child {
-    width: 5%;
+    width: 10%;
 }
 
 .name .square {
@@ -102,6 +106,17 @@ main {
     color: white;
     font-size: 14px;
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+.name::before {
+    content: '';
+    background-color:#a3a3a3;
+    width: 12%;
+    height: 2px;
+    position: fixed;
+    bottom: 14%;
+    left: 1%;
 }
 
 
