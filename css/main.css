@@ -18,6 +18,10 @@ body {
     padding-left: 20px;
 }
 
+.p20 {
+    padding: 20px;
+}
+
 /* MAIN CONTENT */
 main {
     flex-grow: 1;
@@ -30,24 +34,35 @@ main {
     background-color: black;
     color: white;
     width: 15%;
-}
-
-.logo{
-    padding: 20px 10px;
+    color: #a3a3a3;
 }
 
 .main-menu .list-logo {
     list-style: none;
     cursor: pointer;
 }
-.main-menu .list-logo li span {
-    color: #a3a3a3;
+.main-menu .list-logo li span,
+.main-menu .list-2 li span{ 
     font-size: 14px;
+    
 }
 .action {
     display: inline-block;
     width: 10%;
     vertical-align: middle;
+}
+
+.main-menu h4 {
+    color: white;
+}
+
+.list-2 li {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+.list-2 .action i {
+    font-size: 40px;
 }
 
 .name {
