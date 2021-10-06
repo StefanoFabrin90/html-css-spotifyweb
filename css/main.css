@@ -343,7 +343,6 @@ footer {
 .action-footer {
     list-style: none;
     display: flex;
-    justify-content: space-around;
     cursor: pointer;
 }
 
@@ -362,10 +361,10 @@ footer {
 .center .progress-bar {
     background-color:#535353;
     width: 20%;
-    height: 2px;
+    height: 3px;
     position: absolute;
     bottom: 30%;
-    left: 45%;
+    left: 41%;
     cursor: pointer;
 }
 
@@ -375,7 +374,7 @@ footer {
     height: 3px;
     position: absolute;
     bottom: 30%;
-    left: 45%;
+    left: 41%;
     cursor: pointer;
 }
 
@@ -385,14 +384,14 @@ footer {
     height: 3px;
     position: absolute;
     bottom: 30%;
-    left: 45%;
+    left: 41%;
     cursor: pointer;
 }
 
 .center .progres i {
     position: absolute;
     bottom: 22;
-    left: 55%;
+    left: 51%;
     cursor: pointer;
     color: transparent;
 }
@@ -401,23 +400,49 @@ footer {
     color: white
 }
 
-
-
 .time-start {
     position: absolute;
     bottom: 22;
-    left: 41%;
+    left: 37%;
     font-size: 12px;
 }
 
 .time-end {
     position: absolute;
     bottom: 22;
-    right: 31%;
+    right: 35%;
     font-size: 12px;
 }
 
 .right {
-    background-color: violet;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
+
+.footer-right {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+.right-bar {
+    background-color:#8c8c8c;
+    width: 8%;
+    height: 2px;
+    position: absolute;
+    bottom: 35%;
+    right: 0;
+}
+
+.right-bar-now {
+    background-color:#535353;
+    width: 5%;
+    height: 3px;
+    position: absolute;
+    bottom: 35%;
+    right: 0;
+}
+
+
 
