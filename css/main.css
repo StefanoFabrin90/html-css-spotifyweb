@@ -303,6 +303,7 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #282828;
+    position: relative;
 }
 
 .left {
@@ -356,6 +357,64 @@ footer {
 
 .action-footer .btn-action .play:hover {
     transform: scale(1.5);
+}
+
+.center .progress-bar {
+    background-color:#535353;
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+    cursor: pointer;
+}
+
+.center .progress-bar-now {
+    background-color:#8c8c8c;
+    width: 10%;
+    height: 3px;
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+    cursor: pointer;
+}
+
+.center .progress-bar-now:hover{
+    background-color:chartreuse;
+    width: 10%;
+    height: 3px;
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+    cursor: pointer;
+}
+
+.center .progres i {
+    position: absolute;
+    bottom: 22;
+    left: 55%;
+    cursor: pointer;
+    color: transparent;
+}
+
+.center .progres:hover i{
+    color: white
+}
+
+
+
+.time-start {
+    position: absolute;
+    bottom: 22;
+    left: 41%;
+    font-size: 12px;
+}
+
+.time-end {
+    position: absolute;
+    bottom: 22;
+    right: 31%;
+    font-size: 12px;
 }
 
 .right {
