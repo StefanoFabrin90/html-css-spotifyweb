@@ -361,23 +361,54 @@ footer {
 
 .bar {
     display: flex;
-    position: relative;
+    align-items: center;
 }
 
-.progress-bar::before {
-    content: '';
-    width: 30%;
-    height: 2px;
+.progress-bar {
+    width: 500px;
+    height: 3px;
     background-color: white;
-    position: absolute;
-    bottom: 45%;
-    left: 45%;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+.progress-bar .time-progress {
+    width: 30%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: #ccc;
+    
+}
+
+.progress-bar:hover .time-progress {
+    background-color: greenyellow;
+}
+
+.time-now {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:transparent;
+    position:absolute;
+    bottom: -7px;
+    left: 30%;
+}
+
+.progress-bar:hover .time-now {
+    background-color: #ccc;
 }
 
 /* footer-right */
 .right {
     padding: 10px 10px;
-    background-color: brown;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-right .progress-bar {
+    width: 200px;
 }
 
 
