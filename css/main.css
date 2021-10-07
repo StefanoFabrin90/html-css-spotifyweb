@@ -365,7 +365,7 @@ footer {
 }
 
 .progress-bar {
-    width: 500px;
+    width: 20rem;
     height: 3px;
     background-color: white;
     border-radius: 2px;
@@ -408,7 +408,7 @@ footer {
 }
 
 .footer-right .progress-bar {
-    width: 200px;
+    width: 5rem;
 }
 
 .fz {
