@@ -73,7 +73,7 @@ main {
 }
 
 .main-menu .list-logo li:hover {
-    border-left: 5px solid #8bcc2c;
+    border-left: 5px solid greenyellow;
     color: white;
 }
 
@@ -332,117 +332,40 @@ footer {
     color: grey;
 }
 
+
+/* footer center  */
 .center {
     padding: 10px 10px;
     flex-grow: 1;
+    background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.action-footer {
+.center-list {
     list-style: none;
-    display: flex;
+    display:flex;
+    flex-direction: row;
     cursor: pointer;
 }
 
-.action-footer .btn-action i {
-    font-size: 20px;
-}
-
-.action-footer .btn-action .play {
+.center-list .play {
+    font-size: 25px;
     transition: transform .1s;
 }
 
-.action-footer .btn-action .play:hover {
+.center-list .play:hover {
     transform: scale(1.5);
+    color: greenyellow;
 }
 
-.center .progress-bar {
-    background-color:#535353;
-    width: 20%;
-    height: 3px;
-    position: absolute;
-    bottom: 30%;
-    left: 41%;
-    cursor: pointer;
-}
-
-.center .progress-bar-now {
-    background-color:#8c8c8c;
-    width: 10%;
-    height: 3px;
-    position: absolute;
-    bottom: 30%;
-    left: 41%;
-    cursor: pointer;
-}
-
-.center .progress-bar-now:hover{
-    background-color:chartreuse;
-    width: 10%;
-    height: 3px;
-    position: absolute;
-    bottom: 30%;
-    left: 41%;
-    cursor: pointer;
-}
-
-.center .progres i {
-    position: absolute;
-    bottom: 22;
-    left: 51%;
-    cursor: pointer;
-    color: transparent;
-}
-
-.center .progres:hover i{
-    color: white
-}
-
-.time-start {
-    position: absolute;
-    bottom: 22;
-    left: 37%;
-    font-size: 12px;
-}
-
-.time-end {
-    position: absolute;
-    bottom: 22;
-    right: 35%;
-    font-size: 12px;
-}
-
+/* footer-right */
 .right {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+    padding: 10px 10px;
+    background-color: brown;
 }
 
-.footer-right {
-    position: absolute;
-    bottom: 30%;
-    right: 10%;
-}
-
-.right-bar {
-    background-color:#8c8c8c;
-    width: 8%;
-    height: 2px;
-    position: absolute;
-    bottom: 35%;
-    right: 0;
-}
-
-.right-bar-now {
-    background-color:#535353;
-    width: 5%;
-    height: 3px;
-    position: absolute;
-    bottom: 35%;
-    right: 0;
-}
 
 
 
