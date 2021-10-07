@@ -349,12 +349,12 @@ footer {
     cursor: pointer;
 }
 
-.center-list .play {
+.play {
     font-size: 25px;
     transition: transform .1s;
 }
 
-.center-list .play:hover {
+.play:hover {
     transform: scale(1.5);
     color: greenyellow;
 }
@@ -409,6 +409,10 @@ footer {
 
 .footer-right .progress-bar {
     width: 200px;
+}
+
+.fz {
+    font-size: 15px;
 }
 
 
