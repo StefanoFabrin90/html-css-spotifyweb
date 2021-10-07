@@ -369,10 +369,10 @@ footer {
     content: '';
     width: 10%;
     height: 10%;
-    background-color: hotpink;
+    background-color: black;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 40%;
+    left: 45%;
 }
 
 /* footer-right */
